@@ -1,0 +1,8 @@
+color = None
+confirm = None
+
+while confirm !='yes' :
+    color = input('What is your favorie color? ')
+    confirm = input(f'So your favorite color is {color}? (yes or no) ')
+
+print(f'Your favorite color is {color}! ')
