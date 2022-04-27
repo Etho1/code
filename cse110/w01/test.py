@@ -1,0 +1,3 @@
+words='cheesewhiz'
+words.upper(
+)
