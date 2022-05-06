@@ -45,9 +45,20 @@ while remaining > 0: #need to keep giving money
     payment = float(payment)
     remaining = remaining - payment
 if remaining < 0:
+<<<<<<< HEAD
     #check if they paid too much
     # pay the back the change
     remaining = remaining*-1
     print(f'Your change is: {remaining:.2f}') #does not round up, just takes first two decimal places.
 print('Have a nice day!')
+=======
+    remaining = remaining*-1
+    print(f'Your change is: {remaining:.2f}') #does not round up, just takes first two decimal places.
+print('Have a nice day!')
+
+
+#check if they paid too much
+    # pay the back the change
+
+>>>>>>> 4342918aeb7780896ea57ffac356ec35ef5a2966
 
