@@ -1,0 +1,41 @@
+body{
+    background-color: lightpink;
+}
+img{
+    width: 250px;
+    margin: 0 auto;
+    display: flex;
+}
+.top{
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3em;
+}
+.quote{
+    text-align: center;
+    color: white;
+    width: 350px;
+    margin: 0 auto;
+
+}
+ul{
+    font-weight: bolder;
+    margin-left: 35%;
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+}
+.name{
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+}
+.bottom{
+    text-align: center;
+}
+p{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}

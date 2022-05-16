@@ -1,0 +1,23 @@
+body{
+    background-color: pink;
+}
+main{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    row-gap: 50px;
+    /* grid-template-rows: 350px 600px 600px; */
+}
+#success{
+    grid-column: 1/-1;
+    background-color: green;
+}
+#first{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 20px;
+}
+#cheese{
+    display:grid;
+    grid-template-columns: 1fr 4fr 4fr 4fr;
+}
