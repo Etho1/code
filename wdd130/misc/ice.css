@@ -1,0 +1,16 @@
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 350px 350px;
+    
+}
+.gray{
+    background-color: gray;
+    width: 350px 350px;
+}
+.large{
+    font-size: 7em;
+    letter-spacing: .5em;
+    justify-items: center;
+    grid-column: 1/3;
+}

@@ -1,0 +1,28 @@
+.hero{
+    margin: 0 auto;
+    display: flex;
+}
+.logos{
+    background-color: gray;
+    text-align: center;
+    padding: 2em;
+    margin: 0 312px;
+}
+.desk{
+    width: 250px;
+    margin: 20px 0;
+    border-radius: 50%;
+    border: 15px solid rgb(71, 71, 71);
+}
+.logo{
+    width: 250px;
+    margin: 20px 80px;
+    border-radius: 50%;
+    border: 15px solid rgb(71,71,71);
+}
+.person{
+    width: 250px;
+    margin: 20px 0;
+    border-radius: 50%;
+    border: 15px solid rgb(71, 71, 71);
+}

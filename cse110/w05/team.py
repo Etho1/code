@@ -10,4 +10,15 @@ elif grade>= 60:
     letter = 'D'
 else:
     letter = 'F'
-print(f'Your grade is: {letter}')
+sign1 = grade%10
+if sign1 >=7:
+    sign2='+'
+elif sign1 <3:
+    sign2='-'
+else:
+    sign2=''
+if grade > 93:
+    sign2=''
+if grade <59:
+    sign2=''
+print(f'Your grade is: {letter}{sign2}')
