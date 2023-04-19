@@ -1,0 +1,19 @@
+Please respond thoroughly (at least two sentences for each question) to
+the following three questions.
+
+1. Describe an experience you had this semester where you saw the power of
+functions.
+When we worked on the draw2d program I saw how making efficient functions can accelerate the code writing process and save a lot of time.
+Writing a function that can be reused in different places is very beneficial for the future of the code.
+
+
+2. In your judgment, what is the value of test functions?
+
+It can help save time and evaluate if a function is working as intended.
+It is good to check a function throughout the programs making so that you know exactly when something breaks.
+
+3. Describe your process for troubleshooting and fixing a program that
+has a problem. What is one thing you can do to improve your process?
+
+I would run the debugger, find the exact problem, and look into the error and error code to see if I can find any additional information.
+Then I would go into the program and make the needed adjustments and potentially write a test function to see if it works.

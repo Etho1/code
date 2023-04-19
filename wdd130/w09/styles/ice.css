@@ -1,0 +1,91 @@
+body{
+    display: grid;
+    background-color: black;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: 'Merriweather', serif;
+}
+#content{
+    background-color: white;
+    border-radius: 40px;
+    overflow: hidden;
+    grid-column: 2/3;
+    display: grid;
+    grid-template-rows: 2fr 3fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    z-index: -1;
+}
+#container{
+    margin: 0 auto;
+    border-radius: 15px;
+    grid-column: 1/4;
+    grid-row: 1/-1;
+    object-fit: contain;
+    width:100%;
+    overflow: hidden;
+}
+#bridge{
+    width:100%;
+    grid-row:1/-1;
+    grid-column: 1/4;
+    overflow: hidden;
+}
+#Bottom-Text{
+    width: 100%;
+    display: grid;
+    grid-column: 1/4;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #3f5b8b;
+    color: white;
+}
+
+#text h6{
+    color: #7186a9;
+    font-size: 1.5em;
+    
+}
+#text p{
+    color: #8e848e;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 1.6em;
+    line-height: 1.5em;
+    margin-top: -5%;
+}
+#text h2{
+    color: black;
+    font-size: 4em;
+    margin-top: -10%;
+}
+#text{
+grid-column: 1/4;
+text-align: center;
+
+/* height: px; */
+}
+
+
+
+.read{
+    text-align: center;
+    border-right: 2px solid gray;
+}
+.views{
+    text-align: center;
+    border-right: 2px solid gray;
+}
+.comments{
+    text-align: center;
+}
+#m{
+    font-size: 2em;
+    margin: 0 auto;
+}
+#v{
+    font-size: 2em;
+    margin: 0 auto;
+}
+#c{
+    font-size: 2em;
+    margin: 0 auto;
+}
+
